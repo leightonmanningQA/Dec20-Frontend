@@ -1,0 +1,18 @@
+/* ID = # 
+
+*/
+
+#name{
+    color:aqua;
+    background-color: black;
+}
+
+/* Generic = look for <element class="lorem"> */
+.lorem{
+    font-size: 10px;
+}
+/* specific = look for <p class="lorem"> 
+p.lorem{
+    font-size: 10px;
+}
+*/
