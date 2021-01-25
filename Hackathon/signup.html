@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <h2>Main site navigation</h2>
+        <ul>
+            <li>
+                <a href="Index.html">Home</a>
+            </li>
+            <li>
+                <a href="schedule.html">Schedule</a>
+            </li>
+            <li>
+                <a href="signup.html">Signup</a>
+            </li>
+        </ul>
+    </nav>
+    <section>
+        <img src="Resources/Cinema.jpg" />
+    </section>
+    <section>
+        <form action="" method="GET">
+            <label>Title:</label>
+            <select id="titles" name="titles" size="1">
+                <option selected disabled>Choose one</option>
+                <option value="Mr">Mr</option>
+                <option value="Mrs">Mr</option>
+                <option value="Miss">Miss</option>
+                <option value="Dr">Dr</option>
+            </select>
+            <br />
+            <label>First Name:</label>
+            <input type="text" name="FirstName" required />
+            <br />
+            <label>Last Name:</label>
+            <input type="text" name="LastName" required />
+            <br />
+            <label>Email:</label>
+            <input type="email" name="email" required />
+            <br />
+            <label>Date of birth:</label>
+            <input type="date" name="date" />
+            <br />
+            <label>Phone Number:</label>
+            <input type="number" name="number" pattern="[0-9]{11,13}" />
+            <br />
+            <label>Gender:</label>
+            <input type="radio" name="Gender" value="Male" />Male
+            <input type="radio" name="Gender" value="Female" />Female
+            <input type="radio" name="Gender" value="PNTS" />Prefer Not To Say 
+            <br />
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</body>
+<footer>
+    &copy; QA Cinemas 2021;
+</footer>
+
+</html>
