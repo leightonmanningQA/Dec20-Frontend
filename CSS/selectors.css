@@ -1,0 +1,17 @@
+/* access via element */
+
+body{
+    background-color: chocolate;
+}
+/* access via id */
+#name{
+    background-color: darkcyan;
+}
+/* access via class */
+.lorem{
+    background-color: darkorchid;
+}
+/* access via element,id and class */
+ol#techs.styleMe{
+    text-decoration: underline;
+}
