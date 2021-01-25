@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <!-- Organise information, user input -->
+    <!-- Method = How the infomration is passed to a server -->
+    <!-- GET = Arguments are appended to the url of the request-->
+    <!-- POST = Information is sent in the body of the request -->
+    <form action="" method="GET">
+        <label>Enter your username:</label>
+        <input type="text" name="username" required />
+        <br />
+        <label>Enter your password:</label>
+        <input type="password" name="pwd" />
+        <br />
+        <label>Enter your email:</label>
+        <input type="email" name="email" />
+        <br />
+        <label>Enter your phone:</label>
+        <input type="tel" name="tel" value="12345678911" pattern="[0-9]{11,13}" />
+        <br />
+        <label>Enter your company url:</label>
+        <input type="url" name="url" />
+        <br />
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" Male />
+        <input type="radio" id="female" name="gender" Female />
+        <input type="radio" id="male" name="gender" Prefer not to say />
+        <br />
+        <label>What food do you like</label>
+        <input type="checkbox">Chicken</input>
+        <input type="checkbox">Beef</input>
+        <input type="checkbox">Pork</input>
+        <input type="checkbox">Fish</input>
+        <br />
+
+        <input list="browsers" />
+        <datalist id="browsers">
+            <option value="IE">internet explorer</option>
+            <option value="FF">Fire fox</option>
+            <option value="GC">Google Chrome</option>
+            <option value="SF">Safari</option>
+        </datalist>
+
+        <br />
+        <label>DOB:</label>
+        <input type="date" />
+        <br />
+
+        <label>comments:</label>
+        <textarea row="10" cols="50" maxLength="3"></textaream>
+            Feedback?
+        </textarea>
+        <br />
+        <button type="submit">Submit</button>
+        <button type="reset">Reset Values</button>
+
+    </form>
+</body>
+
+</html>
