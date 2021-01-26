@@ -1,0 +1,20 @@
+body em {
+    color:blue;
+}
+
+header h1{
+    color:red;
+}
+
+article > p{
+    color:limegreen;
+}
+
+h1 + p {
+    color:purple;
+}
+
+head ~ body {
+    background-color: grey;
+}
+
