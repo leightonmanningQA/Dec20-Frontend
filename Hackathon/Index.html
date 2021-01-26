@@ -5,41 +5,112 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <style>
+
+    </style>
 </head>
 
 <body>
-    <nav>
-        <h2>Main site navigation</h2>
-        <ul>
-            <li>
-                <a href="Index.html">Home</a>
-            </li>
-            <li>
-                <a href="schedule.html">Schedule</a>
-            </li>
-            <li>
-                <a href="signup.html">Signup</a>
-            </li>
-        </ul>
-    </nav>
-    <section id="image">
-        <img src="Resources/Cinema.jpg" />
-    </section>
-    <section id="text">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident doloremque odit vel dignissimos sit
-            cupiditate tempore. Hic, possimus dignissimos. Ex quod quia sequi quaerat commodi perspiciatis placeat,
-            culpa autem nihil.</p>
-    </section>
-    <section>
-        <img src="Resources/popcorn.jpg" />
-        <img src="Resources/popcorn3.jpg" />
-        <img src="Resources/popcorn3.jpg" />
-    </section>
-    <section>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi cupiditate nobis nesciunt error. Soluta
-            ab velit debitis harum ea sed ipsum dicta? Id eveniet blanditiis fuga facilis nulla cum a.</p>
-    </section>
-
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">QA CINEMAS</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="schedule.html">Schedule</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="signup.html"  aria-disabled="true">Signup</a>
+              </li>
+              <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li> -->
+              
+            </ul>
+            <!-- <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="row">
+            <div class="col-md">
+                <div class="alert alert">
+                    <img src="Resources/Cinema.jpg" />
+                </div>
+            </div>
+        </div>
+        
+            <div class="row">
+                <div class="col-xl">
+                    <div class="alert alert">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident doloremque odit vel dignissimos sit
+                            cupiditate tempore. Hic, possimus dignissimos. Ex quod quia sequi quaerat commodi perspiciatis placeat,
+                            culpa autem nihil.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident doloremque odit vel dignissimos sit
+                            cupiditate tempore. Hic, possimus dignissimos. Ex quod quia sequi quaerat commodi perspiciatis placeat,
+                            culpa autem nihil.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident doloremque odit vel dignissimos sit
+                            cupiditate tempore. Hic, possimus dignissimos. Ex quod quia sequi quaerat commodi perspiciatis placeat,
+                            culpa autem nihil.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident doloremque odit vel dignissimos sit
+                            cupiditate tempore. Hic, possimus dignissimos. Ex quod quia sequi quaerat commodi perspiciatis placeat,
+                            culpa autem nihil.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="alert alert">
+                        <img src="Resources/popcorn2.png" />
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="alert alert">
+                        <img src="Resources/popcorn2.png" />
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="alert alert">
+                        <img src="Resources/popcorn2.png" />
+                    </div>
+                </div>
+            </div>
+            
+                <div class="row">
+                    <div class="col-md">
+                        <div class="alert alert">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident doloremque odit vel dignissimos sit
+                                cupiditate tempore. Hic, possimus dignissimos. Ex quod quia sequi quaerat commodi perspiciatis placeat,
+                                culpa autem nihil.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident doloremque odit vel dignissimos sit
+                                cupiditate tempore. Hic, possimus dignissimos. Ex quod quia sequi quaerat commodi perspiciatis placeat,
+                                culpa autem nihil.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident doloremque odit vel dignissimos sit
+                                cupiditate tempore. Hic, possimus dignissimos. Ex quod quia sequi quaerat commodi perspiciatis placeat,
+                                culpa autem nihil.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident doloremque odit vel dignissimos sit
+                                cupiditate tempore. Hic, possimus dignissimos. Ex quod quia sequi quaerat commodi perspiciatis placeat,
+                                culpa autem nihil.</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
 </body>
 
 <footer>
